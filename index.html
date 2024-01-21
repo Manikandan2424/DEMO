@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTMIL_BASICS</title>
-    </head>
-    <body>
-        <h1>WELCOME TO LEARN BASICS</h1>
-        <p>Let us start to learn <b>HTML Tags</b></p>
-        <p>HTML boiler tags</p>
-        <p>1) html</p>
-        <p>2) head</p>
-        <p>3) body</p>
-        <br>
-        <p><strong>Other tags</strong></p>
-        <P>br - to go for next line</P>
-        <p>b or strong - used to bold the text</p>
-        <br>
-        <p>Image tag : <strong>img src="image name or image link"</strong></p>
-        <p>Example for image tag using the above syntax:</p>
-        <img src="images.jpeg"><br>
-        <img src="images.jpeg">
-        <p>If there is any issues in image link we can use <b>alt tag</b> to show any information in above image specified space</p>
-        <p>Image tag : <strong>img src="image name or image link" <b>alt="any name "</b></strong></p>
-        <p>Example for above syntax:</p>
-        <img src="ic.com/images?q=&usqp=CAU" alt="alt tag use">
-        <br>
-        <p><b>Open the link tag : </b></p>
-        <a href="https://www.kongu.ac.in/" target="_blank">KEC CLG WEB PAGE</a>
+
+<head>
+    <title>HTML EXTERNAL CSS BASICS</title>
+    <link href="BASIC.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <h1 class="mani">FORM BASICS USING EXTERNAL CSS</h1> 
+    <br><br>
+
+    <form id="list">
+
+        <label for="fname">First Name : </label>
+        <input type="textbox"><br><br>
+
+        <label for="lname">Last Name  : </label>
+        <input type="textbox"><br><br>
         
+        <label for="dropdown">Program : </label>
+        <select name="drop1">
+            <option value=""> BE </option>
+            <option value=""> BTech </option>
+            <option value="Select any one"  selected> Select any one </option>
+
+        </select><br><br>
 
 
+        <label for="dropdown">Branch : </label>
+        <select name="drop1">
+            <option value=""> ECE </option>
+            <option value=""> EEE </option>
+            <option value=""> EIE </option>
+            <option value=""> CSD </option>
+            <option value=""> CSE </option>
+            <option value="">  IT </option>
+            <option value="Select any one"  selected> Select any one </option>
+        </select><br><br>
+
+        <label>Staff's Performance : </label>
+
+        <input type="radio" name="Staff Performance">Good
+        <input type="radio" name="Staff Performance" checked>Better
+        <input type="radio" name="Staff Performance">Best
+        
+        <br><br>
+        <input type="submit">
+        <input type="reset">
 
 
-    </body>
+   
+    </form>
+
+
+    
+</body>
 </html>
