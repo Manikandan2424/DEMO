@@ -4,3 +4,20 @@ h1{
     color: crimson;
     margin: 3%;
 }
+
+#list{
+
+    color: blueviolet;
+    background-color: cornsilk;
+    text-align:center;
+
+}
+
+*{
+
+    color: blue;
+}
+
+.mani{
+     text-align: center;
+}
